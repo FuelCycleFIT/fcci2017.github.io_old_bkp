@@ -7,13 +7,12 @@ description:
 
 # Introduction
 
-	This document explains minimum requirements needed for participating to FCCI. A lot of additionnal features are detailled in the following on ine documentation \url{https://git-scm.com/book/fr/v2}.
+This document explains minimum requirements needed for participating to FCCI. A lot of additionnal features are detailled in the following on ine documentation \url{https://git-scm.com/book/fr/v2}.
+It is assumed here the reader has already a github account.
 
-	It is assumed here the reader has already a github account.
+## FCCI2017 group settings
 
-# # FCCI2017 group settings
-
-# ##Setup to Contribute to the FCCI
+### Setup to Contribute to the FCCI
 This assume that you already have a github account, if you don't please visit
 and follow the instruction.
 
@@ -68,7 +67,7 @@ repository. Usually the link to the remote are used in only one direction :
 folder*
 
 
-# ##Branch Gymnastics
+### Branch Gymnastics
 Git allow you to have different branchs. Each branch can contain different
 version of you sources. For exemple, if you are developing a software, you can
 imagine have a `develop` which contain the lastest version of the software
@@ -90,7 +89,7 @@ git checkout source_branch my_file
 ```
 
 
-# ##Update your computer repository
+### Update your computer repository
 Before working on some improvement/addition to the project make sure you have
 the last version of it locally:
 ```bash
@@ -100,4 +99,4 @@ git rebase upstream master # add the last commit to your actual branch
 
 
 
-# ##Work with your fork
+### Work with your fork
