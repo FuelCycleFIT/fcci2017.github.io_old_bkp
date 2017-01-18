@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Introduction
-tagline: Fuel Cycle Confidence Improvement 
+tagline: 
 description:
 ---
 
