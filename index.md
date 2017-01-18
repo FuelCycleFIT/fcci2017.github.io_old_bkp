@@ -5,28 +5,30 @@ tagline: Fuel Cycle Confidence Improvement
 description:
 ---
 
-*****************************************
+==========================================
 OSAFC  : Sensitity Analysis for Fuel Cycle
-*****************************************
+==========================================
+
 Introduction
 ------------
-[INTRODUCTION](Introduction.md)
+[INTRODUCTION](pages/Introduction.md)
 
 Objectives
 ----------
 
 Work methodology
 ----------------
-[WORKFLOW](WORKFLOW.md)
+[WORKFLOW](pages/WORKFLOW.md)
 
 Design of Experiences
 ---------------------
-[TEST1](TEST1.md)
+[TEST1](pages/TEST1.md)
 
 Lexicon
 -------
-[Lexicon](LEXICON.md)
+[Lexicon](pages/LEXICON.md)
 
-[How To]
-![How To use git](DOC/HowToGIT.pdf)
+How To
+-------
+![How To use git](pages/DOC/HowToGIT.pdf)
 ---
