@@ -1,4 +1,8 @@
-# Motivations and objectives
+*******
+Introduction
+*******
+
+## Motivations and objectives
 
 Dynamic fuel cycle simulation code is promising tool for assessing future options for nuclear energy. Ideally, it should be able to provide answers to a wide panel of questions: for instance, such a tool should estimate the natural uranium resources consumption regarding different reactor technologies (or options), identify the radioprotection issues during spent fuel transportation or estimate the sizing of ultimate waste. Different institutions aim to develop their own numerical tools regarding their scientific objective and all the available tools cannot answer all the relevant issues of future nuclear fuel cycle. 
 
@@ -6,4 +10,4 @@ No matter how powerful fuel cycle dynamic simulations are, they cannot be valida
 
 
 
-# Work methodology
+## Work methodology

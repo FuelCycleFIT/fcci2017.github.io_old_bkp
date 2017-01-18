@@ -20,5 +20,6 @@ Lexicon
 -------
 [Lexicon](LEXICON.md)
 
-[How To]
-![How To use git](DOC/HowToGIT.pdf)
+How To
+------
+[How To use git](DOC/howtogit.md)

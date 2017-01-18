@@ -1,10 +1,9 @@
----
-layout: page
-title: Workflow
-tagline: 
-description:
----
-# General definition
+========
+WORKFLOW
+========
+
+General definition
+==================
 
 Each different part of the FCCI should be based on a specific experiment that we
 want to answer.  For each problem a cycle will be defined as well as a set of
@@ -40,15 +39,18 @@ run sensitivity analysis.
 
 In the follow one can find an example of what a test should look like:
 
-# Design of Experience
+Design of Experience
+====================
 
-## Introduction
+Introduction
+------------
 
 General description of the goal of the experiement, and the general application cases:
 *ex radio-protection, cost evaluation/economical study, non-proliferation, fuel
 cycle evaluation, ...*
 
-## Cycle Description
+Cycle Description
+-----------------
 Exhaustiv description of the cycle we aim to simulate, allowing the simulator to
 have a global ideas of the complete cycle.
 This should describe in details all the type of facilities presents in the
@@ -56,7 +58,8 @@ simulation as well as all the different possible material flows. This might be
 documented with a cycle pictures allowing a better understanding of the
 simulation.
 
-## Output Metrics
+Output Metrics
+--------------
 Description of all the differents identified output metrics relevants for the
 considered test.
 
@@ -70,7 +73,8 @@ Metrics can be deferencied into 2 categories:
   cost, radio-toxicity, decayheat....
 
 
-## Cycle Input and Model simplification
+Cycle Input and Model simplification
+------------------------------------
 Description of the all the degree of freedom of the experiences:
 
 - Definition of the input factors (variables and parameters) and their variation
