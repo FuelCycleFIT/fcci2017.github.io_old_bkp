@@ -14,7 +14,7 @@ This document explains minimum requirements needed for participating to FCCI. A 
 This assume that you already have a github account, if you don't please visit
 and follow the instruction.
 
-1. Fork the repository
+1. **Fork the repository**
 
     Click on the bouton [ADD IMG] form the https://github.com/fcci2017/FCCI.git, and select
     your account.
@@ -34,7 +34,7 @@ and follow the instruction.
     Pull Request can only be merged by an FCCI member. It is not allowed to merge
     your own PR even if you have the authority.
 
-2. Clone your fork locally
+2. **Clone your fork locally**
 
     On you have forked the fcci repository on your own github account you will be
     able to clone your own fork (copy) of the repository on (each of) your computer.
@@ -43,7 +43,7 @@ and follow the instruction.
     git clone https://github.com/git_username/FCCI.git
     ```
 
-3. Remote set up
+3. **Remote set up**
     
     Once you have clone your repository into your computer, you can add a remote
     (link to the main repository -- the link to you own fork of the repository is
