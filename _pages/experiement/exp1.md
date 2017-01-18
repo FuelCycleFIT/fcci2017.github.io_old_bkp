@@ -59,7 +59,7 @@ and a storage to store the used UOX fuel.
 
 ### Simple calculation
 
-#### Block 2
+#### Block 1
    - Input variable:
      - Reactor:
        - Specific Power[GW/t<sub>HM</sub>]: val1, val2, valn 
