@@ -12,19 +12,16 @@ Introduction
 Objectives
 ----------
 
-Work methodology
-----------------
+# Work methodology
 [WORKFLOW](pages/WORKFLOW.md)
 
-Design of Experiences
----------------------
+## Design of Experiences
 [TEST1](pages/TEST1.md)
 
-Lexicon
--------
+
+
+# Lexicon
 [Lexicon](pages/LEXICON.md)
 
-How To
--------
+## How To
 ![How To use git](pages/DOC/HowToGIT.pdf)
----
