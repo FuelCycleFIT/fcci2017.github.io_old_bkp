@@ -29,5 +29,5 @@ No matter how powerful fuel cycle dynamic simulations are, they cannot be valida
 Small Abstract that presents the web site and its purposes.
 
 ## How To
-[How To use git](_pages/howto_index.md)
+[How To use git](_pages/how_to_index.md)
 Nice picture of illustration... 
