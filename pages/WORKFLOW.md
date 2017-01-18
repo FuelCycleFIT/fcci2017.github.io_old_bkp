@@ -1,3 +1,9 @@
+---
+layout: page
+title: Workflow
+tagline: 
+description:
+---
 # General definition
 
 Each different part of the FCCI should be based on a specific experiment that we
