@@ -5,17 +5,17 @@ tagline: Fuel Cycle Confidence Improvement
 description:
 ---
 
-Introduction
-------------
+# Introduction
 [INTRODUCTION](pages/INTRODUCTION.md)
 
-Objectives
-----------
+# Objectives
+
+# Context
 
 # Work methodology
 [WORKFLOW](pages/WORKFLOW.md)
 
-## Design of Experiences
+# Design of Experiences
 [TEST1](pages/TEST1.md)
 
 
