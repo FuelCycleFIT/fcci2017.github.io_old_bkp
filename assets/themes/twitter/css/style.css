@@ -1,4 +1,3 @@
-@import "{{ site.theme }}";
 /* Custom container */
 .container-narrow {
   margin: 0 auto;
