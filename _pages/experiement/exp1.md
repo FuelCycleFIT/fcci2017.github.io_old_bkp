@@ -35,44 +35,27 @@ enricht a natural uranium feed (0.3%<sub>w</sub> of <sup>235</sup>U + 99.7%<sub>
 
 ## Cycle Input and Model simplification
 
-    Input variable:
-
+    - Input variable:
       - Reactor:
-
         - Specific Power[GW/t<sub>HM</sub>]: [X .. Y]
-
         - Capacity Factor: [X .. Y]
-
         - Cycle Time: Set to match Burnup specification
-
         - Burnup [GWd/t<sub>HM</sub>]: [X .. Y] 
-
         - Mass [t<sub>HM</sub>]: [X .. Y] 
-
         - laoding patern[core fraction]: [1, 3, 4]
-
         - loading time[month]: [0, 1]
-
       - Enrichment:
-
         - tails[%<sub>w</sub>]: [X .. Y]
-
         - UOX[%<sub>w</sub>]: [X .. Y]
 
-    Model:
-
+    - Model:
       - Decay (Depletion excluded): [on/off]
-
       - Fuel Fab modelisation: 
-
         - Fix: see UOX enrichment
-
         - Loading model: Free Parameter (Consider as much as possible)
 
       - Fuel depletion modelisation:
-
         - recipe 
-
         - Depletion: Free Parameter (Consider as much as possible)
 
 
