@@ -105,7 +105,3 @@ git rebase upstream master # add the last commit to your actual branch
 
 Work with your fork
 -------------------
-
-
-
-\end{document}
