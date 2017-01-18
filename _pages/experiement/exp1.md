@@ -56,6 +56,7 @@ and a storage to store the used UOX fuel.
 
 
 ## Do to
+
 ### Simple calculation
     1. Block 1
        - Input variable:
@@ -78,7 +79,6 @@ and a storage to store the used UOX fuel.
          - Fuel depletion modelisation:
            - recipe 
            - Depletion: Free Parameter (Consider as much as possible)
-
     2. Block 2
        - Input variable:
          - Reactor:
