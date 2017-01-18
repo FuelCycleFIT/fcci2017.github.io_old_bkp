@@ -7,7 +7,7 @@ description:
 
 Introduction
 ------------
-[INTRODUCTION](pages/Introduction.md)
+[INTRODUCTION](pages/INTRODUCTION.md)
 
 Objectives
 ----------
