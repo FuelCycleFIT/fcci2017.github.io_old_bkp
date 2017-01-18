@@ -58,50 +58,48 @@ and a storage to store the used UOX fuel.
 ## Do to
 
 ### Simple calculation
-
-#### Block 1
-     - Input variable:
-       - Reactor:
-         - Specific Power[GW/t<sub>HM</sub>]: val1, val2, valn 
-         - Capacity Factor: val1, val2, valn 
-         - Cycle Time: Set to match Burnup specification
-         - Burnup [GWd/t<sub>HM</sub>]: val1, val2, valn 
-         - Mass [t<sub>HM</sub>]: val1, val2, valn  
-         - Loading patern[core fraction]: val1, val2, valn 
-         - Loading time[month]: val1, val2, valn 
-       - Enrichment:
-         - tails[%<sub>w</sub>]: val1, val2, valn 
-         - UOX[%<sub>w</sub>: val1, val2, valn 
-     - Model:
-       - Decay (Depletion excluded): val1, val2, valn 
-       - Fuel Fab modelisation: 
-         - Fix: see UOX enrichment: val1, val2, valn 
-         - Loading model: Free Parameter (Consider as much as possible)
-       - Fuel depletion modelisation:
-         - recipe 
-         - Depletion: Free Parameter (Consider as much as possible)
+   - Input variable:
+     - Reactor:
+       - Specific Power[GW/t<sub>HM</sub>]: val1, val2, valn 
+       - Capacity Factor: val1, val2, valn 
+       - Cycle Time: Set to match Burnup specification
+       - Burnup [GWd/t<sub>HM</sub>]: val1, val2, valn 
+       - Mass [t<sub>HM</sub>]: val1, val2, valn  
+       - Loading patern[core fraction]: val1, val2, valn 
+       - Loading time[month]: val1, val2, valn 
+     - Enrichment:
+       - tails[%<sub>w</sub>]: val1, val2, valn 
+       - UOX[%<sub>w</sub>: val1, val2, valn 
+   - Model:
+     - Decay (Depletion excluded): val1, val2, valn 
+     - Fuel Fab modelisation: 
+       - Fix: see UOX enrichment: val1, val2, valn 
+       - Loading model: Free Parameter (Consider as much as possible)
+     - Fuel depletion modelisation:
+       - recipe 
+       - Depletion: Free Parameter (Consider as much as possible)
 
 #### Block 2
-     - Input variable:
-       - Reactor:
-         - Specific Power[GW/t<sub>HM</sub>]: val1, val2, valn 
-         - Capacity Factor: val1, val2, valn 
-         - Cycle Time: Set to match Burnup specification
-         - Burnup [GWd/t<sub>HM</sub>]: val1, val2, valn 
-         - Mass [t<sub>HM</sub>]: val1, val2, valn  
-         - Loading patern[core fraction]: val1, val2, valn 
-         - Loading time[month]: val1, val2, valn 
-       - Enrichment:
-         - tails[%<sub>w</sub>]: val1, val2, valn 
-         - UOX[%<sub>w</sub>: val1, val2, valn 
-     - Model:
-       - Decay (Depletion excluded): val1, val2, valn 
-       - Fuel Fab modelisation: 
-         - Fix: see UOX enrichment: val1, val2, valn 
-         - Loading model: Free Parameter (Consider as much as possible)
-       - Fuel depletion modelisation:
-         - recipe 
-         - Depletion: Free Parameter (Consider as much as possible)
+   - Input variable:
+     - Reactor:
+       - Specific Power[GW/t<sub>HM</sub>]: val1, val2, valn 
+       - Capacity Factor: val1, val2, valn 
+       - Cycle Time: Set to match Burnup specification
+       - Burnup [GWd/t<sub>HM</sub>]: val1, val2, valn 
+       - Mass [t<sub>HM</sub>]: val1, val2, valn  
+       - Loading patern[core fraction]: val1, val2, valn 
+       - Loading time[month]: val1, val2, valn 
+     - Enrichment:
+       - tails[%<sub>w</sub>]: val1, val2, valn 
+       - UOX[%<sub>w</sub>: val1, val2, valn 
+   - Model:
+     - Decay (Depletion excluded): val1, val2, valn 
+     - Fuel Fab modelisation: 
+       - Fix: see UOX enrichment: val1, val2, valn 
+       - Loading model: Free Parameter (Consider as much as possible)
+     - Fuel depletion modelisation:
+       - recipe 
+       - Depletion: Free Parameter (Consider as much as possible)
 
 ### Full calculation
   
