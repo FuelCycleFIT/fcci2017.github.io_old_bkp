@@ -1,9 +1,4 @@
----
-layout: page
-title: Introduction
-tagline: 
-description:
----
+# Introduction
 
 ## Motivations and objectives
 
