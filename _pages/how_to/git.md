@@ -15,6 +15,7 @@ This assume that you already have a github account, if you don't please visit
 and follow the instruction.
 
 1. Fork the repository
+
     Click on the bouton [ADD IMG] form the https://github.com/fcci2017/FCCI.git, and select
     your account.
 
@@ -34,6 +35,7 @@ and follow the instruction.
     your own PR even if you have the authority.
 
 2. Clone your fork locally
+
     On you have forked the fcci repository on your own github account you will be
     able to clone your own fork (copy) of the repository on (each of) your computer.
 
@@ -42,6 +44,7 @@ and follow the instruction.
     ```
 
 3. Remote set up
+    
     Once you have clone your repository into your computer, you can add a remote
     (link to the main repository -- the link to you own fork of the repository is
     automatically done when cloning it. -- you can access the list/name of remote
