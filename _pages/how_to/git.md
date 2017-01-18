@@ -1,24 +1,23 @@
-====================
-How To work with GIT
-====================
+---
+layout: page
+title: How to Git
+tagline: 
+description:
+---
 
-
-Introduction
-============
+# Introduction
 
 	This document explains minimum requirements needed for participating to FCCI. A lot of additionnal features are detailled in the following on ine documentation \url{https://git-scm.com/book/fr/v2}.
 
 	It is assumed here the reader has already a github account.
 
-FCCI2017 group settings
-=======================
+# # FCCI2017 group settings
 
-Setup to Contribute to the FCCI
--------------------------------
+# ##Setup to Contribute to the FCCI
 This assume that you already have a github account, if you don't please visit
 and follow the instruction.
 
-#. Fork the repository
+1. Fork the repository
   
   Click on the bouton [ADD IMG] form the https://github.com/fcci2017/FCCI.git, and select
   your account.
@@ -38,7 +37,7 @@ and follow the instruction.
   Pull Request can only be merged by an FCCI member. It is not allowed to merge
   your own PR even if you have the authority.
 
-#. Clone your fork locally
+2. Clone your fork locally
 
 On you have forked the fcci repository on your own github account you will be
 able to clone your own fork (copy) of the repository on (each of) your computer.
@@ -47,7 +46,7 @@ able to clone your own fork (copy) of the repository on (each of) your computer.
 git clone https://github.com/git_username/FCCI.git
 ```
 
-#. Remote set up
+3. Remote set up
 Once you have clone your repository into your computer, you can add a remote
 (link to the main repository -- the link to you own fork of the repository is
 automatically done when cloning it. -- you can access the list/name of remote
@@ -69,8 +68,7 @@ repository. Usually the link to the remote are used in only one direction :
 folder*
 
 
-Branch Gymnastics
------------------
+# ##Branch Gymnastics
 Git allow you to have different branchs. Each branch can contain different
 version of you sources. For exemple, if you are developing a software, you can
 imagine have a `develop` which contain the lastest version of the software
@@ -92,8 +90,7 @@ git checkout source_branch my_file
 ```
 
 
-Update your computer repository
--------------------------------
+# ##Update your computer repository
 Before working on some improvement/addition to the project make sure you have
 the last version of it locally:
 ```bash
@@ -103,5 +100,4 @@ git rebase upstream master # add the last commit to your actual branch
 
 
 
-Work with your fork
--------------------
+# ##Work with your fork
