@@ -1,14 +1,9 @@
-
 ---
 layout: page
 title: Introduction
 tagline: Fuel Cycle Confidence Improvement 
 description:
 ---
-
-
-
-
 
 *****************************************
 OSAFC  : Sensitity Analysis for Fuel Cycle
