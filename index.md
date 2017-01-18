@@ -28,4 +28,4 @@ No matter how powerful fuel cycle dynamic simulations are, they cannot be valida
 [Lexicon](pages/LEXICON.md)
 
 ## How To
-![How To use git](pages/DOC/HowToGIT.pdf)
+![How To use git](pages/DOC/howto_index.md)

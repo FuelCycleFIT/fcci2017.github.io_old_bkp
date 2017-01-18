@@ -1,6 +1,9 @@
-==============================
-LEXICON
-==============================
+---
+layout: page
+title: Lexicon
+tagline: 
+description:
+---
 
 ## Scenario
 
