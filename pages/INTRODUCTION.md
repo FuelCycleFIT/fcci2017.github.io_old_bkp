@@ -1,6 +1,9 @@
-*******
-Introduction
-*******
+---
+layout: page
+title: Introduction
+tagline: Fuel Cycle Confidence Improvement 
+description:
+---
 
 ## Motivations and objectives
 
