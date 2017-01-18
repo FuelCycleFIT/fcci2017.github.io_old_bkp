@@ -21,7 +21,7 @@ No matter how powerful fuel cycle dynamic simulations are, they cannot be valida
 [WORKFLOW](_pages/workflow.md)
 
 # Design of Experiences
-[TEST1](pages/TEST1.md)
+[TEST1](_pages/TEST1.md)
 
 
 ---
@@ -29,5 +29,5 @@ No matter how powerful fuel cycle dynamic simulations are, they cannot be valida
 Small Abstract that presents the web site and its purposes.
 
 ## How To
-![How To use git](pages/doc/howto_index.md)
+![How To use git](pages/howto_index.md)
 Nice picture of illustration... 
