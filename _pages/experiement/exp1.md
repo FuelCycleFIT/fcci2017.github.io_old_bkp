@@ -76,6 +76,7 @@ The present experiment cycle will be composed by:
 - 1 PWR UOX
 - 1 enrichment factory
 Calculation length: 1 reactor cycle
+
 |-------------|----------------------|--------------------|-----|-----|-----|
 |:                                  :|:                  :|:               :|     
 |                 Input              |         Unit       |      Values     |
