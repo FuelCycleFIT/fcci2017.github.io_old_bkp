@@ -80,11 +80,11 @@ The present experiment cycle will be composed by:
 - 1 enrichment factory
 Calculation length: 1 reactor cycle
 
-| ----------- + -------------------- + ------------------ + -------+ --- + --- |
+| :---------: | :------------------: | :----------------: | :----: | :-: | :-: |
 |     Input   |                      |         Unit       | Values |     |     |
 |             |                      |                    + ------ + --- + --- |
 |             |                      |                    |  1     |  2  |  3  |
-| :---------: | :------------------: | :----------------: | :----: | :-: | :-: |
+| ----------- + -------------------- + ------------------ + -------+ --- + --- |
 |             | P<sub>spec-eff</sub> |  GW/t<sub>HM</sub> |        |     |     |
 |             |        Mass          |     t<sub>HM</sub> |        |     |     |
 | Reactor     |        Burnup        | GWd/t<sub>HM</sub> |        |     |     |
