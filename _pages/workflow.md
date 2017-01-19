@@ -25,48 +25,30 @@ The full fleet is  simulated from a set of fixed input factors and simplificatio
 
 From the full fleet modelization, a complete sensitivity analysis is run by sampling in a specified range all the input factors and available simplifications. Impact of differences assessed during exercices set 1. and 2. is measured.
 
-
-
-
-
-
-In the follow one can find an example of what a test should look like:
-
-# Design of Experience
+# Design of experiment
 
 ## Introduction
 
-General description of the goal of the experiement, and the general application cases:
-*ex radio-protection, cost evaluation/economical study, non-proliferation, fuel
-cycle evaluation, ...*
+The design of experiment aims to fully describe an exercice, from its input factors to the ouput metrics. It also include the general application cases, that could be for instance:
+
+- Radio-protection,
+- Cost evaluation/economical study,
+- Non-proliferation,
+- Innovative fuel cycle evaluation.
 
 ## Cycle Description
-Exhaustiv description of the cycle we aim to simulate, allowing the simulator to
-have a global ideas of the complete cycle.
-This should describe in details all the type of facilities presents in the
-simulation as well as all the different possible material flows. This might be
-documented with a cycle pictures allowing a better understanding of the
-simulation.
+
+This part shows description of the simulated fleet with all facilities, connexions between them, material flows and so on. It provides for a global view at a glance of the final exercice. This might be documented with a cycle pictures allowing a better understanding.
 
 ## Output Metrics
-Description of all the differents identified output metrics relevants for the
-considered test.
 
-Metrics can be deferencied into 2 categories:
-
-- direct output metrics, which should directly be produced by a generic fuel
-  cycle tool, as material flows, materials compositions, power generated,
-  ressource comsubsion...
-
-- indirect ouput metrics, that require addition computations to be determine, such as
-  cost, radio-toxicity, decayheat....
-
+Description of all the differents identified output metrics relevants for the considered test according to the application case. Direct output, directly provided by the model and indirect output calculated from direct output are provided
 
 ## Cycle Input and Model simplification
-Description of the all the degree of freedom of the experiences:
 
-- Definition of the input factors (variables and parameters) and their variation
-  range/allowed values (if applicable), example:
+Description of the all the degree of freedom of the experiences. It includes:
+
+- Definition of the input factors (variables and parameters) and their variation range/allowed values (if applicable), example:
 
   - burnup [ BU<sub>min</sub>, BU<sub>max</sub>]
   - FiFo/LiFo/random/mix
