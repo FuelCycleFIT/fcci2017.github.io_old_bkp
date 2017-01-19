@@ -30,9 +30,9 @@ The present experiement cycle will be composed by:
 - Unat consumption
 - Waste:
   - Pu mass
-  - vector Pu
+  - vector Pu: [238, 239, 240, 241, 242]
   - MA mass
-  - MA vector 
+  - MA vector: [<sup>237</sup>Np, <sup>241</sup>Am, <sup>242m</sup>Am, <sup>243</sup>Am, <sup>243</sup>Cm, <sup>244</sup>Cm, <sup>245</sup>Cm,<sup>246</sup>Cm] 
   - Decay Heat 
 
 
@@ -50,10 +50,14 @@ The present experiement cycle will be composed by:
    - tails[%<sub>w</sub>]: [X .. Y]
    - <sup>235</sup>U in UOX[%<sub>w</sub>]: [3 .. 5] (ref 4)
 - Model:
- - Decay (Depletion excluded): [on/off] (ref on if available)
- - Fuel Fab modelisation: 
-   - Fix: see UOX enrichment
-   - Loading model: Free Parameter (Consider as much as possible)
+  - Decay (Depletion excluded): [on/off] (ref on if available)
+  - Fuel Fab modelisation: 
+    - Fix: see UOX enrichment
+    - Loading model (Consider as much as possible): example of parameter variation:
+      - k<sub>threshold</sub>
+      - k<sub>boc</sub>
+      - ...
+      
  - Fuel depletion modelisation:
    - recipe 
    - Depletion: Free Parameter (Consider as much as possible)
