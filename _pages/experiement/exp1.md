@@ -66,7 +66,7 @@ The present experiment cycle will be composed by:
   - Fuel depletion mobilisation:
     - recipe 
     - Depletion
-- Time steps[month]: [1 .. 24] (ref 1)
+- Time steps[month]: [1 .. 24]
 
 ## Do to
 
@@ -76,26 +76,26 @@ The present experiment cycle will be composed by:
 - 1 PWR UOX
 - 1 enrichment factory
 Calculation length: 1 reactor cycle
-- Input variable:
-  - Reactor:
-    - Specific Power[GW/t<sub>HM</sub>]: val<sub>1</sub>, val<sub>2</sub>, val<sub>n 
-    - Capacity Factor: val<sub>1</sub>, val<sub>2</sub>, val<sub>n 
-    - Cycle Time: Set to match Burnup specification
-    - Burnup [GWd/t<sub>HM</sub>]: val<sub>1</sub>, val<sub>2</sub>, val<sub>n 
-    - Mass [t<sub>HM</sub>]: val<sub>1</sub>, val<sub>2</sub>, val<sub>n  
-    - Loading pattern[core fraction]: val<sub>1</sub>, val<sub>2</sub>, val<sub>n 
-    - Loading time[month]: val<sub>1</sub>, val<sub>2</sub>, val<sub>n 
-  - Enrichment:
-    - tails[%<sub>w</sub>]: val<sub>1</sub>, val<sub>2</sub>, val<sub>n 
-    - <sup>235</sup>U in UOX[%<sub>w</sub>]: val<sub>1</sub>, val<sub>2</sub>, val<sub>n
-- Model:
-  - Decay (Depletion excluded): val<sub>1</sub>, val<sub>2</sub>, val<sub>n 
-  - Fuel Fab mobilisation: 
-    - Fix: see UOX enrichment: val<sub>1</sub>, val<sub>2</sub>, val<sub>n 
-    - Loading model: Free Parameter (Consider as much as possible)
-  - Fuel depletion mobilisation:
-    - recipe 
-    - Depletion: Free Parameter (Consider as much as possible)
+|-------------|----------------------|--------------------|-----|-----|-----|
+|:                                  :|:                  :|:               :|     
+|                 Input              |         Unit       |      Values     |
+|                                    |                    |: 1 :|: 2 :|: 3 :|
+|-------------|----------------------|--------------------|-----|-----|-----|
+|             | P<sub>spec-eff</sub> |  GW/t<sub>HM</sub> |     |     |     |
+|             |        Mass          |     t<sub>HM</sub> |     |     |     |
+| Reactor     |        Burnup        | GWd/t<sub>HM</sub> |     |     |     |
+|             |   Loading pattern    |                    |     |     |     |
+|             |     Loading Time     |                    |     |     |     |
+|-------------|----------------------|--------------------|-----|-----|-----|
+| Enrichement |   UOX  Enrichment    |    %<sub>w</sub>   |     |     |     |
+|             |  Tails  Enrichment   |    %<sub>w</sub>   |     |     |     |
+|-------------|----------------------|--------------------|-----|-----|-----|
+|             |        Decay         |                    |     |     |     |
+|      Model  |      Fuel Fab        |                    |     |     |     |
+|             |      Depletion       |                    |     |     |     |
+|-------------|----------------------|--------------------|-----|-----|-----|
+|             |      Time Step       |                    |     |     |     |
+|-------------|----------------------|--------------------|-----|-----|-----|
 
 #### Problem 2
   - 2 PWR UOX
