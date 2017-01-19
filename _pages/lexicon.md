@@ -19,6 +19,10 @@ It defines a well defined trajectory for a nuclear fleet evolution on a given ti
 
 Self consistant set of input parameters and factors that allows the complete description of the simulated scenario.
 
+### Input factor
+
+Input factor are input variables and input parameters.
+
 ### Input variable
 
 An input variable is a factor that is observable in a real fleet and has to be defined by the user. Input variable can be ordonnated: 
@@ -45,7 +49,6 @@ An input parameter is not measurable in the real fleet and has to be estimated.
 
 	- One or several dephased reactors
 	- With or without reactor first loading
-	- other...
 
 ## Model
 
@@ -61,7 +64,7 @@ Here's a non exhaustive list of models :
 
 A fuel cycle model includes sub models for each facility we want to modelize. Usually facility model simplifications are used to for optimizing CPU calculation time trying to not impacting the output. Simplifications have to be done according to targetted output variables.
 
-### Facility model 
+### Facility model features.
 
 A facility model is defined by its features.
 
