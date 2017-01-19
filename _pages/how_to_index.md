@@ -6,4 +6,4 @@ description:
 ---
 
 # Get some help on git:
-Ti get some help on git and github please visit our [documentation](howtogit.md)
+To get some help on git and github please visit our [documentation](how_to/git.md)

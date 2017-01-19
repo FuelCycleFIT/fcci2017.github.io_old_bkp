@@ -1,5 +1,4 @@
 ---
-permalink: /workflow/
 layout: page
 title: Workflow
 ---
