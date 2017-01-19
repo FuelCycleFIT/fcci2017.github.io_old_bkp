@@ -16,7 +16,7 @@ and follow the instruction.
 
 1. **Fork the repository**
 
-    Click on the bouton [ADD IMG] form the https://github.com/fcci2017/FCCI.git, and select
+    Click on the bouton ![ADD IMG](my img) form the https://github.com/fcci2017/FCCI.git, and select
     your account.
 
     This will create a copy to the fcci repository owned by the fcci organisation,
@@ -39,7 +39,7 @@ and follow the instruction.
     On you have forked the fcci repository on your own github account you will be
     able to clone your own fork (copy) of the repository on (each of) your computer.
 
-    ```bash
+    ```
     git clone https://github.com/git_username/FCCI.git
     ```
 
@@ -50,7 +50,7 @@ and follow the instruction.
     automatically done when cloning it. -- you can access the list/name of remote
     you have set up by using the `git remote -v` command)
 
-    ```bash
+    ```
     cd FCCI
     git remote add upstream https://github.com/fcci2017/FCCI.git
     ```
@@ -73,29 +73,65 @@ imagine have a `develop` which contain the lastest version of the software
 inluding all the lastest feature, a `master` branch containing the last stable
 version, a different branches for each features you are developing.
 you can switch between different branch using:
-```bash
+```
 git checkout my_branch
 ```
 you can create a new branch using:
-```bash
+```
 git checkout -b my_new_branch
 ```
 In this case a new branch will be create from the branch you are in.
 
 Grab a single file from an other branch:
-```bash
+```
 git checkout source_branch my_file
 ```
-
 
 ### Update your computer repository
 Before working on some improvement/addition to the project make sure you have
 the last version of it locally:
-```bash
+```
 git fetch --all # This will download all the information about news commit from all the different remote you have setted up
 git rebase upstream master # add the last commit to your actual branch
 ```
 
+### Work with your local git clone
+Each time you have made a set of modification you can commit those changes. Each
+commit coresponds to a all modifications since the last commit, allowing you to
+jump back to a certain status of your work. To do a commit, you need first to
+add some modified file to the next commit and then commit. To each commit, a
+message is associated to allow to inform about the change you have made:
+```
+ git add my_file1 my_file2...
+ git commit -m "my messgae"
+```
+It is possible if many file have been modified, to commit them togheter,
+separated or grouped as required.
+
+### Working with you fork
+As you have done many different modification of your file, which corresponds to
+some number, you need to synchronise your cloud clone (fork) of this work:
+```
+git push remote branch
+```
+where *remote* correspond to the name you have give to your cloud clone (remote)
+-- usually *origin*.
+
+### Submiting you modification to the Organisation repository
+To submit a set a change, that you considere as finalyse you have to issue a
+Pull Request (PR). TO do it, you need to go on github using your favorite
+browser, go into you cloud clone of the repository, switch to the branch and
+then clic on pull request.
+The pull request will be on the Orgonisation repository from you cloud copy of
+the repository. You may want to add some comment to explain you change. Then
+your collaborator will review your modification, discuss them, and when every
+body get to agree on them they will be merged into the `master` branch of the
+origanisation repository.
+
+As long as a Pull Request from one of your cloud clone branch is not merge, all
+new commits push from you local copy to your cloud copy will be automatically
+added to the PR, allowing you to improve you set of modification accordingly to
+the ongoing review (that you can follow on you Pull request thread).
 
 
-### Work with your fork
+
