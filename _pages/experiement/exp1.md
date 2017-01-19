@@ -41,6 +41,9 @@ The present experiment cycle will be composed by:
 ## Cycle Input and Model simplification
 - Input variable:
   - Variation range for each reactor:
+
+
+
     - **Effective Thermal Power [GW]: fixed**: 0.9 
       - Thermal Power : set to match Effective Thermal Power
       - Capacity Factor : set to match Effective Thermal Power
@@ -77,44 +80,27 @@ The present experiment cycle will be composed by:
 - 1 enrichment factory
 Calculation length: 1 reactor cycle
 
-|-------------|----------------------|--------------------|-----|-----|-----||
-|:                                  :|:                  :|:               :|     
-|           Input                    |         Unit       |      Values     |
-|             |                      |                    |: 1 :|: 2 :|: 3 :|
-|-------------|----------------------|--------------------|-----|-----|-----||
-|             | P<sub>spec-eff</sub> |  GW/t<sub>HM</sub> |     |     |     |
-|             |        Mass          |     t<sub>HM</sub> |     |     |     |
-| Reactor     |        Burnup        | GWd/t<sub>HM</sub> |     |     |     |
-|             |   Loading pattern    |                    |     |     |     |
-|             |     Loading Time     |                    |     |     |     |
-|-------------|----------------------|--------------------|-----|-----|-----||
-| Enrichement |   UOX  Enrichment    |    %<sub>w</sub>   |     |     |     |
-|             |  Tails  Enrichment   |    %<sub>w</sub>   |     |     |     |
-|-------------|----------------------|--------------------|-----|-----|-----||
-|             |        Decay         |                    |     |     |     |
-|      Model  |      Fuel Fab        |                    |     |     |     |
-|             |      Depletion       |                    |     |     |     |
-|-------------|----------------------|--------------------|-----|-----|-----||
-|             |      Time Step       |                    |     |     |     |
-|-------------|----------------------|--------------------|-----|-----|-----||
+|-------------|----------------------|--------------------|--------|-----|-----|
+|     Input   |                      |         Unit       | Values |     |     |
+|             |                      |                    |: 1    :|: 2 :|: 3 :|
+|-------------|----------------------|--------------------|--------|-----|-----||
+|             | P<sub>spec-eff</sub> |  GW/t<sub>HM</sub> |        |     |     |
+|             |        Mass          |     t<sub>HM</sub> |        |     |     |
+| Reactor     |        Burnup        | GWd/t<sub>HM</sub> |        |     |     |
+|             |   Loading pattern    |                    |        |     |     |
+|             |     Loading Time     |                    |        |     |     |
+|-------------|----------------------|--------------------|--------|-----|-----||
+| Enrichement |   UOX  Enrichment    |    %<sub>w</sub>   |        |     |     |
+|             |  Tails  Enrichment   |    %<sub>w</sub>   |        |     |     |
+|-------------|----------------------|--------------------|--------|-----|-----||
+|             |      Time Step       |                    |        |     |     |
+|-------------|----------------------|--------------------|--------|-----|-----||
 
-
-
-
-|             |          Grouping           ||
-First Header  | Second Header | Third Header |
- ------------ | :-----------: | -----------: |
- Content       |          *Long Cell*        ||
- Content       |   **Cell**    |         Cell |
- New section   |     More      |         Data |
- And more      | With an escaped '\|'         ||  
- [Prototype table]
-
-
-
-
-
-
+If the tool has some model capabilities, some of those variables might be
+overloaded (for example Burnup-UOX enrichement couple). If possible run without
+modeling (all parameters fixed) and with modeling (some parameters determined by
+the model). Do the same for decay capabilities, if possible run with and
+without, if not run the available options.
 
 
 
@@ -136,15 +122,6 @@ First Header  | Second Header | Third Header |
 #### Problem 4
   - 2 PWR UOX
     - starting: 0y and 50y
-    - life time: 60y
-  - 1 enrichment factory
-  - 1 storage
-  - Calculation length: 100 years
-  - Input variable & Model: see Problem 1
-
-#### Problem 5
-  - 10 PWR UOX
-    - starting: every 10y form 0y
     - life time: 60y
   - 1 enrichment factory
   - 1 storage
