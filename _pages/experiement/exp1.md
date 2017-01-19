@@ -80,9 +80,9 @@ The present experiment cycle will be composed by:
 - 1 enrichment factory
 Calculation length: 1 reactor cycle
 
-|-------------+----------------------+--------------------+--------+-----+-----|
+| ----------- + -------------------- + ------------------ + -------+ --- + --- |
 |     Input   |                      |         Unit       | Values |     |     |
-|             |                      |                    +--------+-----+-----|
+|             |                      |                    + ------ + --- + --- |
 |             |                      |                    |  1     |  2  |  3  |
 | :---------: | :------------------: | :----------------: | :----: | :-: | :-: |
 |             | P<sub>spec-eff</sub> |  GW/t<sub>HM</sub> |        |     |     |
@@ -90,12 +90,12 @@ Calculation length: 1 reactor cycle
 | Reactor     |        Burnup        | GWd/t<sub>HM</sub> |        |     |     |
 |             |   Loading pattern    |                    |        |     |     |
 |             |     Loading Time     |                    |        |     |     |
-|-------------+----------------------+--------------------+--------+-----+-----|
+| ----------- + -------------------- + ------------------ + -------+ --- + --- |
 | Enrichement |   UOX  Enrichment    |    %<sub>w</sub>   |        |     |     |
 |             |  Tails  Enrichment   |    %<sub>w</sub>   |        |     |     |
-|-------------+----------------------+--------------------+--------+-----+-----|
+| ----------- + -------------------- + ------------------ + -------+ --- + --- |
 |             |      Time Step       |                    |        |     |     |
-|-------------+----------------------+--------------------+--------+-----+-----|
+| ----------- + -------------------- + ------------------ + -------+ --- + --- |
 
 If the tool has some model capabilities, some of those variables might be
 overloaded (for example Burnup-UOX enrichement couple). If possible run without
