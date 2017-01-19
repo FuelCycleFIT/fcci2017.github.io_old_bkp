@@ -98,6 +98,27 @@ Calculation length: 1 reactor cycle
 |             |      Time Step       |                    |     |     |     |
 |-------------|----------------------|--------------------|-----|-----|-----||
 
+
+
+
+|             |          Grouping           ||
+First Header  | Second Header | Third Header |
+ ------------ | :-----------: | -----------: |
+ Content       |          *Long Cell*        ||
+ Content       |   **Cell**    |         Cell |
+
+ New section   |     More      |         Data |
+ And more      | With an escaped '\|'         ||  
+ [Prototype table]
+
+
+
+
+
+
+
+
+
 #### Problem 2
   - 2 PWR UOX
   - 1 enrichment factory
