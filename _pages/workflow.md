@@ -13,15 +13,15 @@ For this purpose, a set of question/problems with an increasing complexity is pr
 
 Exercices could be divided into three following separated steps
 
-## Simple exercices with fixed input factors
+####  1. Simple exercices with fixed input factors
 
 Small numbers of facilities are simulated chosen from the full fleet simplification. Input factors and simplifications are fixed. Those exercices highlights differences or agreements between different tools at the scale of the facility.
 
-## Full fleet exercices with fixed input factors
+#### 2. Full fleet exercices with fixed input factors
 
 The full fleet is  simulated from a set of fixed input factors and simplifications. Differences or agreements between different tools at the scale of the fleet is assessed.
 
-## Full fleet exercice with variable input factors
+#### 3. Full fleet exercice with variable input factors
 
 From the full fleet modelization, a complete sensitivity analysis is run by sampling in a specified range all the input factors and available simplifications. Impact of differences assessed during exercices set 1. and 2. is measured.
 
