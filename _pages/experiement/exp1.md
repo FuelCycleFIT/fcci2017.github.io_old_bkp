@@ -81,7 +81,7 @@ The present experiment cycle will be composed by:
 Calculation length: 1 reactor cycle
 
 | :---------: | :------------------: | :----------------: | :----: | :-: | :-: |
-|     Input   |                      |         Unit       | Values |     |     |
+|     Input   |                      |         Unit       |         Value      |
 |             |                      |                    + ------ + --- + --- |
 |             |                      |                    |  1     |  2  |  3  |
 | ----------- + -------------------- + ------------------ + -------+ --- + --- |
