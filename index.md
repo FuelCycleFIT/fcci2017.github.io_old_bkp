@@ -8,11 +8,14 @@ description:
 # Introduction
 ---
 
+<p style="text-align:justify";>
 This web site is dedicated to build and coordinate an effort for increasing the fuel cycle simulators confidence.
+"</p>
 
 # Motivations and Objectives
 ---
 
+<p style="text-align:justify";>
 Dynamic fuel cycle simulation code is promising tool for assessing future options for nuclear energy. Ideally, it should be able to provide answers to a wide panel of questions, that could be for instance:
 
 * Estimate the natural uranium resources consumption regarding different reactor technologies or options,
@@ -29,6 +32,7 @@ Also, fuel cycle simulations are affected by a lot of uncertainties :
 4. A wide of input variable and parameters are possible, impacting strongly the result of a scenario simulation.
 
 Points 1. to 3. are already investigated by fuel cycle developpers in other researches framework. Providing ansmwers to the point 4 is the goal of the initiated approach. Sensitivity Analysis (SA) formalism could help understanding and improving the weight of input variables and parameters in an output standard deviation.
+"</p>
 
 # Work methodology
 ---
