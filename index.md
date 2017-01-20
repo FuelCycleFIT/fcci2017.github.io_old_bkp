@@ -35,7 +35,7 @@ Points 1. to 3. are already investigated by fuel cycle developpers in other rese
 
 By building complex exercices divided into basic simple exercices, we could have access to many important results. The final complex exercice aims to assess sensitivity of input variables and parameters on fuel output. Simple basic exercices helps assessing sensitivity of input variables and parameters on one unit output. Combination between complex and simple exercices allows to quantify how compensation phenomenon plays on cycle output
 
-[WORKFLOW](_pages/workflow.md)
+[WORKFLOW](_pages/workflow.html)
 
 # Lexicon
 ---
