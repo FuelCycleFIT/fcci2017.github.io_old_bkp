@@ -52,9 +52,7 @@ An input parameter is not measurable in the real fleet and has to be estimated.
 
 ## Model
 
-Represents the computationnal tool that processes the input and performing output calculation, according to this figure:
-
-![Fuel cycle simulation scheme](FIG/MODEL.png)
+Represents the computationnal tool that processes the input and performing output calculation.
 
 Here's a non exhaustive list of models : 
 
