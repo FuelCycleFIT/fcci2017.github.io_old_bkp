@@ -1,10 +1,8 @@
 ---
 layout: page
 title: Experiment 1
-tagline: PWR-UOX, ! Through cycle 
-description: This experiment has been designed to assess the correlation of a
-one through cycle composed by an enrichment factory, a PWR loaded with UOX fuel
-and a storage to store the used UOX fuel.
+tagline: PWR-UOX, Through cycle 
+description: This experiment has been designed to assess the correlation of a one through cycle composed by an enrichment factory, a PWR loaded with UOX fuel and a storage to store the used UOX fuel.
 ---
 
 # Design of Experience
