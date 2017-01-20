@@ -42,14 +42,14 @@ By building complex exercices divided into basic simple exercices, we could have
 
 In this part, we preciselly define the vocabulary used for the present fuel cycle effort.
 
-[LEXICON](_pages/lexicon.md)
+[LEXICON](_pages/lexicon.html)
 
 # Design of Experiences
 ---
 
-[TEST1](_pages/TEST1.md)
+[TEST1](_pages/TEST1.html)
 
 # How To
 ---
-[How To use git](_pages/how_to_index.md)
+[How To use git](_pages/how_to_index.html)
 Nice picture of illustration... 
