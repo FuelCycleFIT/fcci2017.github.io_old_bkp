@@ -5,7 +5,7 @@ tagline: FCCI
 description:
 ---
 
-This web site is dedicated to host the project FCCI ([github project](https://github.com/fcci2017/FCCI)) that aiming to build and coordinate an effort for increasing the fuel cycle simulators confidence.
+This web site is dedicated to host the project FCCI ([github project](https://github.com/fcci2017/fcci2017.github.io)) that aiming to build and coordinate an effort for increasing the fuel cycle simulators confidence.
 
 Dynamic fuel cycle simulation code is promising tool for assessing future options for nuclear energy. Ideally, it should be able to provide answers to a wide panel of questions, that could be for instance:
 
