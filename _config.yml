@@ -3,7 +3,7 @@
 permalink: /_pages/:title.html
 #permalink: 'pretty'
 
-include: ["_pages", "_pages/doc"] 
+include: ["_pages", "_pages/experiment", "_pages/how_to"] 
 exclude: [".rvmrc", ".rbenv-version", "ReadMe.md", "Rakefile", "changelog.md", "License.md"]
 highlighter: rouge
 
