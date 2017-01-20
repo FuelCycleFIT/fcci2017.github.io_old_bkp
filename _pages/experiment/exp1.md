@@ -69,7 +69,7 @@ The present experiment cycle will be composed by:
     - Depletion
 - Time steps[month]: [1 .. 24]
 
-## Do to
+## Problems Definition
 
 ### Simple calculation
 
@@ -80,8 +80,6 @@ Calculation length: 1 reactor cycle
 
 | :---------: | :------------------: | :----------------: | :----: | :-: | :-: |
 |     Input                          |         Unit       |         Value      |
-|                                    |                    +        +     +     |
-|                                    |                    |  1     |  2  |  3  |
 | ----------- + -------------------- + ------------------ + ------ + --- + --- |
 |             | P<sub>spec-eff</sub> |  GW/t<sub>HM</sub> |        |     |     |
 |             |        Mass          |     t<sub>HM</sub> |        |     |     |

@@ -47,7 +47,7 @@ In this part, we preciselly define the vocabulary used for the present fuel cycl
 # Design of Experiences
 ---
 
-[TEST1](_pages/TEST1.html)
+[Design of Experiment](_pages/experiment.html)
 
 # How To
 ---
