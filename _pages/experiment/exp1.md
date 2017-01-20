@@ -42,12 +42,12 @@ The present experiment cycle will be composed by:
 
 
 
-    - **Effective Thermal Power [GW]: fixed**: 0.9 
+    - **Effective Thermal Power [GW]: fixed**: 3
       - Thermal Power : set to match Effective Thermal Power
       - Capacity Factor : set to match Effective Thermal Power
       P<sub>th-eff</sub> = C<sub>f</sub> * P<sub>th</sub>
-    - Effective Specific Power[GW/t<sub>HM</sub>]: [20 .. 30]
-    - Mass [t<sub>HM</sub>]: Set to match Effective Thermal Power:
+    - Effective Specific Power[GW/t<sub>HM</sub>]: [20 .. 40]
+    - Mass [t<sub>HM</sub>]: Set to match effective specific power:
       P<sub>th-eff</sub> = P<sub>eff-spec</sub> * M
     - Cycle Time: Set to match Burnup specification
     - Burnup [GWd/t<sub>HM</sub>]: [25 .. 75]

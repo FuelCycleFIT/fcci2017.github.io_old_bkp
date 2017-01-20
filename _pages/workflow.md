@@ -3,6 +3,10 @@ layout: page
 title: Workflow
 ---
 
+# Introduction
+
+By building complex exercices divided into basic simple exercices, we could have access to many important results. The final complex exercice aims to assess sensitivity of input variables and parameters on fuel output. Simple basic exercices helps assessing sensitivity of input variables and parameters on one unit output. Combination between complex and simple exercices allows to quantify how compensation phenomenon plays on cycle output
+
 # Experiment's philosophy
 
 The FCCI exercices are based on a specific experiment representing a fleet modelization. Each fleet is described by a set of interesting output metrics, input variables and parameteres and facilities model features.
